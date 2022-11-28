@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,300,0,0">
+    <title>동해관광</title>
+</head>
+<body>
+    <div id="wrap">
+        <header class="header">
+            <div class="header_top">
+                <div class="wrapper">
+                    <ul>
+                        <li><a href="#n">동해시의회</a></li>
+                        <li><a href="#n">동해시청</a></li>
+                        <li class="search"><a href="#n"><i class="material-symbols-rounded">search</i></a></li>
+                        <li class="lang"><a href="#n"><i class="material-symbols-rounded">language</i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header_sub">
+                <h1 class="logo"><a href="#n">동해관광</a></h1>
+                <nav class="gnb">
+                    <ul>
+                        <li><a href="#n">동해여행</a></li>
+                        <li><a href="#n">테마체험</a></li>
+                        <li><a href="#n">축제와 행사</a></li>
+                        <li><a href="#n">음식·숙박·쇼핑</a></li>
+                        <li><a href="#n">동해관광지</a></li>
+                        <li><a href="#n">여행도우미</a></li>
+                    </ul>
+                </nav>
+                <div class="all_menu"><button><span>전체메뉴</span></button></div>
+            </div>
+        </header>
+        <section class="visual">
+            <div class="tit">
+                <strong>SUNRISE CITY</strong>
+                <h2>동트는 동해</h2>
+            </div>
+            <div class="widget">
+                <ul>
+                    <li class="weather">
+                        <a href="http://www.weather.go.kr/weather/forecast/timeseries2_metsky.jsp?sido=4200000000&gugun=4217000000&dong=4217051000">
+                            <h3>동해시</h3>
+                            <span><i class="material-symbols-rounded">sunny</i>맑음</span>
+                            <span class="tem">22.5℃</span>
+                        </a>
+                    </li>
+                    <li class="map">
+                        <a href="https://www.kcg.go.kr/donghaecgs/na/ntt/selectNttInfo.do?nttSn=31808">
+                            <h3>바다안전<br>똑똑맵</h3>
+                            <span>바로가기</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="popup swiper">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide"><img src="images/main/visual1.png" alt=""></li>
+                    <li class="swiper-slide"><img src="images/main/visual2.png" alt=""></li>
+                    <li class="swiper-slide"><img src="images/main/visual3.png" alt=""></li>
+                    <li class="swiper-slide"><img src="images/main/visual4.png" alt=""></li>
+                    <li class="swiper-slide"><img src="images/main/visual5.png" alt=""></li>
+                </ul>
+            </div>
+            <div class="btn_wrap">
+                <div class="paging"></div>
+            </div>
+        </section>
+        <section class="course">
+            <div class="wrapper">
+                <h2>동해여행 코스</h2>
+                <div class="menu">
+                    <ul class="name">
+                        <li class="active">
+                            <a href="#n">해안 코스</a>
+                            <div class="swiper list">
+                                <ul class="swiper-wrapper">
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/coast1.png" alt=""></div>
+                                            <span>어달해수욕장</span>
+                                        </a>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/coast2.png" alt=""></div>
+                                            <span>묵호등대</span>
+                                        </a>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/coast3.png" alt=""></div>
+                                            <span>촛대바위</span>
+                                        </a>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/coast4.png" alt=""></div>
+                                            <span>묵호항</span>
+                                        </a>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/coast5.png" alt=""></div>
+                                            <span>추암해수욕장</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#n">신선 코스</a>
+                            <div class="swiper list">
+                                <ul class="swiper-wrapper">
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/mnt1.png" alt=""></div>
+                                            <span>용추폭포</span>
+                                        </a>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/mnt2.png" alt=""></div>
+                                            <span>두타산</span>
+                                        </a>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/mnt3.png" alt=""></div>
+                                            <span>무릉반석</span>
+                                        </a>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/mnt4.png" alt=""></div>
+                                            <span>무릉계곡명승지</span>
+                                        </a>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/mnt5.png" alt=""></div>
+                                            <span>쌍폭포</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#n">인생샷 코스</a>
+                            <div class="swiper list">
+                                <ul class="swiper-wrapper">
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/shot1.png" alt=""></div>
+                                            <span>논골담길 등대오름길</span>
+                                        </a>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/shot2.png" alt=""></div>
+                                            <span>무릉별유천지</span>
+                                        </a>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/shot3.png" alt=""></div>
+                                            <span>논골담길 논골1길</span>
+                                        </a>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/shot4.png" alt=""></div>
+                                            <span>삼화사</span>
+                                        </a>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/shot5.png" alt=""></div>
+                                            <span>발바닥바위</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#n">트레킹 코스</a>
+                            <div class="swiper list">
+                                <ul class="swiper-wrapper">
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/trk1.png" alt=""></div>
+                                            <span>거북바위</span>
+                                        </a>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/trk2.png" alt=""></div>
+                                            <span>초록봉</span>
+                                        </a>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/trk3.png" alt=""></div>
+                                            <span>동해무릉건강숲</span>
+                                        </a>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/trk4.png" alt=""></div>
+                                            <span>논골담길 논골2길</span>
+                                        </a>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <a href="#n">
+                                            <div class="img"><img src="images/contents/trk5.png" alt=""></div>
+                                            <span>논골담길 논골3길</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="btn">
+                    <button class="left"><i class="material-symbols-rounded">chevron_left</i></button>
+                    <button class="right"><i class="material-symbols-rounded">chevron_right</i></button>
+                </div>
+            </div>
+        </section>
+        <section class="sights">
+            <h2>동해 명소</h2>
+            <div class="swiper list">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <div class="pic">
+                            <img src="images/contents/sights1.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <a href="#n">
+                                <span>숙박</span>
+                                <h3>동해리조트·캠핑장</h3>
+                                <p>망상오토캠핑리조트, 망상제2오토캠핑장, 무릉계곡 힐링캠핑장, 추암오토캠핑장</p>
+                                <button><strong>자세히 보기</strong></button>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="pic">
+                            <img src="images/contents/sights2.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <a href="#n">
+                                <span>음식</span>
+                                <h3>무릉계곡명승지 향토음식점</h3>
+                                <p>산채백반, 산채비빔밥, 감자부침, 도토리묵, 산 더덕구이, 토종닭, 백숙 등</p>
+                                <button><strong>자세히 보기</strong></button>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="pic">
+                            <img src="images/contents/sights3.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <a href="#n">
+                                <span>쇼핑</span>
+                                <h3>동해의 특산품</h3>
+                                <p>오징어, 대게, 문어, 시래기, 곰취나물, 벌꿀, 옥수수, 감자떡, 보리빵</p>
+                                <button><strong>자세히 보기</strong></button>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="service">
+            <div class="wrapper">
+                <div class="txt">
+                    <h2>자주 찾는 서비스</h2>
+                    <p>자주 이용하시는 서비스를 <br class="m_no">모두 모았습니다.</p>
+                </div>
+                <div class="ico">
+                    <ul>
+                        <li>
+                            <a href="#n"><strong><i class="material-symbols-rounded">menu_book</i></strong>
+                                <span>관광안내책자신청</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#n"><strong><i class="material-symbols-rounded">storefront</i></strong>
+                                <span>관광안내소안내</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#n"><strong><i class="material-symbols-rounded">perm_contact_calendar</i></strong>
+                                <span>문화관광해설사</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#n"><strong><i class="material-symbols-rounded">confirmation_number</i></strong>
+                                <span>관광지요금안내</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#n"><strong><i class="material-symbols-rounded">thunderstorm</i></strong>
+                                <span>동해시 날씨정보</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="traffic">
+            <div class="wrapper">
+                <div class="txt">
+                    <h2>동해 교통정보</h2>
+                    <p>동해시 교통정보를 안내해드립니다.<br>
+                        주요 관광지의 경우, 많이 찾아가시는 곳 위주로 안내해드리고 있습니다.</p>
+                </div>
+                <div class="box">
+                    <ul>
+                        <li>
+                            <a href="#n"><span>고속도로 · 국도 이용시</span><i class="material-symbols-rounded">directions_car</i></a>
+                        </li>
+                        <li>
+                            <a href="#n"><span>KTX 및 철도 이용시</span><i class="material-symbols-rounded">train</i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="sns">
+                    <ul class="clearfix">
+                        <li>
+                            <a href="https://www.instagram.com/donghae.tour/">
+                                <img src="images/common/insta.svg" class="insta" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/donghae.tour.FB">
+                                <img src="images/common/facebook.svg" class="face" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://blog.naver.com/sunrisectdh">
+                                <img src="images/common/blog.svg" class="blog" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UC272czaLwSDfeNvGdsZ2MPA">
+                                <img src="images/common/youtube.svg" class="yt" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <h3>동해관광</h3>
+                <div class="inner">
+                    <div class="fnav clearfix">
+                        <ul>
+                            <li><a href="#n">개인정보처리방침</a></li>
+                            <li><a href="#n">영상정보처리기기운영·관리방침</a></li>
+                            <li><a href="#n">행정전화번호안내</a></li>
+                            <li><a href="#n">이메일무단수집거부</a></li>
+                            <li><a href="#n">저작권 정책</a></li>
+                            <li><a href="#n">찾아오시는길</a></li>
+                            <li><a href="#n">홈페이지 개선의견</a></li>
+                        </ul>
+                    </div>
+                    <div class="finfo">
+                        <span>25755 강원도 동해시 천곡로 77(천곡동)</span>
+                        <span>TEL.033-530-2232</span>
+                        <span>FAX.033-530-2725</span>
+                    </div>
+                    <div class="end">
+                        <p>본 홈페이지에 게시된 이메일 주소가 자동으로 수집되는 것을 거부하며 이를 위반시 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.</p>
+                        <div class="copyright">COPYRIGHT © DONGHAE CITY. ALL RIGHTS RESERVED.</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
