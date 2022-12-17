@@ -245,20 +245,25 @@
 .medical .list {
     padding-bottom: 60px;
 }
-.medical .list ul li .img {
+.medical .list ul li.pic {
+    float: left;
+    height: 96px;
+    margin-bottom: 40px;
+}
+.medical .list ul li.pic .img {
     float: left;
     width: 50%;
 }
-.medical .list ul li .img img {
+.medical .list ul li.pic .img img {
     display:block; 
     width: 100%;
     border-radius: 10px;
 }
-.medical .list ul li .txt {
+.medical .list ul li.pic .txt {
     float: right;
     width: 45%;
 }
-.medical .list ul li .buy {
+.medical .list ul li.pic .buy {
     float: right;
 }
 
